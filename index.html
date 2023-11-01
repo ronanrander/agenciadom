@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagem-icon" href="/images/logo-dom.png"/>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->    
+<link rel="stylesheet" href="style.css">
+
+<script src="menu.js" defer></script>
+
+    <title>Agência DOM</title>
+</head>
+<body>
+  
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#inicio">
+                    <img src="images/logo-dom.png" alt="logo da Agência DOM">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav> 
+
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                 <i class="bi bi-list"></i>
+            </div>
+
+                <div class="menu-mobile" alt="menu-mob" id="menu-mobile">
+                    <div class="btn-fechar">
+                     <i class="bi bi-x-lg"></i>
+                    </div>
+                    <ul class="mobile-links">
+                        <li><a href="https://ronanrander.github.io/agenciadom/">Início</a></li>
+                        <li><a href="/projet/Especialidades.html">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="/form/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>DESENVOLVEDOR DE WEB<span>.</span></h1>
+                        <p>Desenvolvedor web full-stack com vasta experiência em desenvolvimento de aplicações web escaláveis e responsivas. Sou apaixonado por criar soluções tecnológicas que resolvem problemas reais e que agregam valor aos usuários.</p>
+                        
+                        <div class="btn-contato">
+                            <a href="#contato">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="logo-pessoa">
+                    </div><!--img-topo-site -->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo" id="especialidades"> MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Desenvolvimento Web Experiência em desenvolvimento fullstack com foco em tecnologias modernas. Conhecimentos em design de interface e experiência do usuário visualmente atraentes e intuitivas.</p>
+                    </div><!--especialidades-box-->
+                    
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja Online</h3>
+                        <p>Desenvolvimento de Loja Virtual MeuSofazim.com Site de e-commerce desenvolvido do zero com tecnologias como React e Node.js, além de integração com diversos meios de pagamento e entrega.</p>
+                    </div><!--especialidades-box-->
+                    
+                    <div class="especialidades-box">
+                        <i class="bi bi-globe"></i>
+                        <h3>Blog</h3>
+                        <p>Web Design Habilidade em criar layouts modernos e responsivos, com foco na experiência do usuário. Experiência em ferramentas de gerenciamento de versão para controle de projetos.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+    
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto.png" alt="Quem sou Eu">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU RONAN RANDER.</span></h2>
+                        <p>Um desenvolvedor fullstack apaixonado por tecnologia e soluções criativas. Com mais de 3 anos de experiência em desenvolvimento web, tenho trabalhado com diversas tecnologias e plataformas para criar soluções robustas e escaláveis que atendam às necessidades dos clientes.</p>
+                        <p>Eu amo o desafio de encontrar soluções inovadoras e criativas para problemas complexos e estou sempre buscando aprender e crescer como profissional.</p>
+                        <p>Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre meu trabalho?</p>
+                        <div class="btn-social">
+                            <a href="https://instagram.com/ronanrander"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.youtube.com/"><button><i class="bi bi-youtube"></i></button></a>
+                            <a href="https://www.linkedin.com/in/ronan-rander/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                <div class="logo-footer">
+                    <a href="#inicio">
+                        <img src="images/logo-dom.png" alt="logotipo Agência DOM">
+                    </a>
+                    </div><!--logo-footer-->
+                <div class="btn-social">
+                    <a href="https://instagram.com/ronanrander"><button><i class="bi bi-instagram"></i></button></a>
+                    <a href="https://www.youtube.com/"><button><i class="bi bi-youtube"></i></button></a>
+                    <a href="https://www.linkedin.com/in/ronan-rander/"><button><i class="bi bi-linkedin"></i></button></a>
+                </div><!--btn-social-->
+            </div><!--flex-->
+        </div><!--line-footer-->
+
+        <div class="line-footer borda">
+            <p><i class="bi bi-envelope-fill"></i> <a href="mailto:ronanrander6281@gmail.com">ronanrander6281@gmail.com</a></p>
+            <p class="footer-copyright"> © 2023 Ronan Rander. Todos os direitos reservados.</p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer><!--footer-->
+
+</body>
+</html>
